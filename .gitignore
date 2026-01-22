@@ -1,0 +1,34 @@
+# Python / virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+
+# Environment / secrets
+.env
+*.env.*
+secrets/*
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+tmp/
+temp/
+
+# Optional: ignore large data/output folders you might add later
+data/
+outputs/
